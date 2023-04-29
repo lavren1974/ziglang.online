@@ -3,7 +3,7 @@
 
 ## Hell02
 
-```zig title "hello.zig"
+```zig title="hello.zig"
 
 const std = @import("std");
 
