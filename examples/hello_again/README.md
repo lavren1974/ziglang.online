@@ -33,6 +33,7 @@ This line defines the entry point of the program, the `main` function, which is 
 This line uses the `print` function (an alias for `std.debug.print`) to print the string "Hello, world!" followed by a newline character to the stderr. The `print` function takes a format string and a tuple of arguments. In this case, the format string is `"Hello, world!\n"` and the tuple of arguments is an empty anonymous struct `.{}`, because there are no placeholders in the format string to be replaced by any values.
 
 `}`
+
 This line simply closes the main function's block of code.
 
 When this program is executed, it will print "Hello, world!" followed by a newline character to the console. Note that unlike the previous example, this version of the program does not handle I/O errors as it uses the `debug.print` function, which doesn't return errors.
